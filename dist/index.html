@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="/dist/js/index.js" type="module" defer></script>
+    <title>Pesquisa API Correios</title>
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Consulta API - Correios</h1>
+
+        <p>Esse projeto é para consumir uma api e trazer os resultados em seus campos especificos!</p>
+
+        <div class="row">
+
+            <div class="inputbox">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" maxlength="8" required>
+            </div>
+
+            <div class="inputbox">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco"  disabled>
+            </div>
+
+            <div class="inputbox">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro"  disabled>
+            </div>
+
+            <div class="inputbox">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade"  disabled>
+            </div>
+
+            <div class="inputbox">
+                <label for="estado">Estado</label>
+                <input type="text" id="estado"  disabled>
+            </div>
+        </div>
+
+        <div class="row">
+            <button id="btn">Pesquisar Dados</button>
+        </div>
+
+        <p>Para maiores dados de pesquisa, acesse o site dos <a href="https://buscacepinter.correios.com.br/app/endereco/index.php?t" target="_blank"> Correios</a></p>
+
+    </main>
+
+    
+    
+</body>
+</html>
